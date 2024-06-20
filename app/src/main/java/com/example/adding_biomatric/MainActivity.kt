@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
     private lateinit var biometricPrompt: BiometricPrompt
-    private lateinit var promptInfo: Biomgit initetricPrompt.PromptInfo
+    private lateinit var promptInfo: BiometricPrompt.PromptInfo
 
     override fun onCreate(savedInstanceState: Bundle?)   {
         super.onCreate(savedInstanceState)
