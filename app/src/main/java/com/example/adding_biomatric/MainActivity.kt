@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
 
 
     }
-
+//Added new changes
     private fun showBiometricPrompt() {
         val biometricManager = BiometricManager.from(this)
         when (biometricManager.canAuthenticate(BiometricManager.Authenticators.BIOMETRIC_STRONG or BiometricManager.Authenticators.DEVICE_CREDENTIAL)) {
